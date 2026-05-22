@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { BallCanvas } from "./canvas";
 import { TECHNOLOGIES } from "../constants";
@@ -9,6 +9,19 @@ import { styles } from "../styles";
 const TechContent = () => {
   const categories = ["Languages", "Data & Analytics", "Frameworks & AI", "Tools & Cloud"];
   const [activeTab, setActiveTab] = useState("Languages");
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    setIsMobile(mediaQuery.matches);
+    const handleMediaQueryChange = (event: MediaQueryListEvent) => {
+      setIsMobile(event.matches);
+    };
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
 
   const filteredTech = TECHNOLOGIES.filter((tech) => tech.category === activeTab);
 
@@ -27,7 +40,7 @@ const TechContent = () => {
       </motion.div>
 
       <div className="w-full flex flex-col md:flex-row justify-between items-start md:items-end gap-5 mt-5">
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="text-secondary text-[17px] max-w-2xl leading-[30px]">
+        <motion.p variants={fadeIn("up", "", 0.1, 1)} className="text-secondary text-[17px] max-w-2xl leading-[30px]">
           Hover or drag the spheres to interact with my core engineering stack. I specialize in the intersection of data engineering, artificial intelligence, and robust software architecture.
         </motion.p>
         
@@ -60,8 +73,14 @@ const TechContent = () => {
           >
             {filteredTech.map((technology) => (
               <div className="w-28 h-28 flex flex-col items-center gap-2" key={`${activeTab}-${technology.name}`}>
-                <BallCanvas icon={technology.icon} />
-                <p className="text-secondary text-sm font-semibold">{technology.name}</p>
+                {isMobile ? (
+                  <div className="w-20 h-20 bg-tertiary rounded-full shadow-card flex justify-center items-center p-4 border border-white/10">
+                    <img src={technology.icon} alt={technology.name} className="w-full h-full object-contain" />
+                  </div>
+                ) : (
+                  <BallCanvas icon={technology.icon} />
+                )}
+                <p className="text-secondary text-sm font-semibold text-center">{technology.name}</p>
               </div>
             ))}
           </motion.div>
