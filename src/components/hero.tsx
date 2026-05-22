@@ -20,8 +20,8 @@ export const Hero = () => (
         </p>
         <div className="flex flex-wrap gap-4 mt-8 pointer-events-auto z-50">
           <a
-            href="/Sara_Arif_Technical_CV.docx"
-            download="Sara_Arif_CV.docx"
+            href="/Sara_Arif_CV.pdf"
+            download="Sara_Arif_CV.pdf"
             className="bg-[#915EFF] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary transition-all hover:bg-white hover:text-[#915EFF] active:scale-95 flex items-center gap-2 text-sm md:text-base"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
