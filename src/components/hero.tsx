@@ -20,24 +20,14 @@ export const Hero = () => (
         </p>
         <div className="flex flex-wrap gap-4 mt-8 pointer-events-auto z-50">
           <a
-            href="/Sara_Arif_Resume.docx"
-            download="Sara_Arif_Main_Resume.docx"
-            className="bg-[#915EFF] py-3 px-6 md:px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary transition-all hover:bg-white hover:text-[#915EFF] active:scale-95 flex items-center gap-2 text-sm md:text-base"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-            </svg>
-            Industry Resume
-          </a>
-          <a
             href="/Sara_Arif_Technical_CV.docx"
-            download="Sara_Arif_Technical_CV.docx"
-            className="bg-tertiary py-3 px-6 md:px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary border border-[#915EFF] transition-all hover:bg-[#915EFF] active:scale-95 flex items-center gap-2 text-sm md:text-base"
+            download="Sara_Arif_CV.docx"
+            className="bg-[#915EFF] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary transition-all hover:bg-white hover:text-[#915EFF] active:scale-95 flex items-center gap-2 text-sm md:text-base"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
             </svg>
-            Technical CV
+            CV
           </a>
         </div>
       </div>
