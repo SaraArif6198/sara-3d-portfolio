@@ -1,0 +1,10 @@
+export { Navbar } from "./navbar";
+export { Hero } from "./hero";
+export { About } from "./about";
+export { Experience } from "./experience";
+export { Certifications } from "./certifications";
+export { Tech } from "./tech";
+export { Works } from "./works";
+export { Feedbacks } from "./feedbacks";
+export { Contact } from "./contact";
+export { StarsCanvas } from "./canvas";
