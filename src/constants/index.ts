@@ -354,7 +354,7 @@ export const PROJECTS = [
     tags: [{ name: "React", color: "blue-text-gradient" }, { name: "Compiler Theory", color: "green-text-gradient" }, { name: "Tailwind", color: "pink-text-gradient" }],
     image: lalr1_pasted,
     source_code_link: "https://github.com/SaraArif6198/lalr_simulator",
-    live_site_link: "https://github.com/SaraArif6198/lalr_simulator",
+    live_site_link: "https://drive.google.com/file/d/1qeWlwuNnKdZ0BJfqp28H-LBR9xm8EGzw/view?usp=sharing",
     category: "Compiler Engineering"
   },
 
