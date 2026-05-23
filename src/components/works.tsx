@@ -57,7 +57,7 @@ const ProjectModal = ({ project, onClose }: { project: Project, onClose: () => v
 };
 
 const ProjectCard = ({ index, project, onCodeClick }: { index: number, project: Project, onCodeClick: (p: Project) => void }) => {
-  const publicProjects = ["Enterprise Networking Simulation", "OS Memory Simulator"];
+  const publicProjects = ["Enterprise Networking Simulation", "OS Memory Simulator", "Customer Trends ETL"];
   const isPublic = publicProjects.includes(project.name);
 
   return (
