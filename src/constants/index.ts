@@ -345,7 +345,7 @@ export const PROJECTS = [
     tags: [{ name: "Python", color: "blue-text-gradient" }, { name: "Pandas", color: "green-text-gradient" }, { name: "Query Optimizer", color: "pink-text-gradient" }],
     image: sql2pandas,
     source_code_link: "https://github.com/SaraArif6198/sql2pandas-transpiler",
-    live_site_link: "https://github.com/SaraArif6198/sql2pandas-transpiler",
+    live_site_link: "https://drive.google.com/file/d/1g4T4uuOOGDSQ_B9OAKLR1YpLv7dsnBDK/view?usp=sharing",
     category: "Compiler Engineering"
   },
   {
