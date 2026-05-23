@@ -336,7 +336,7 @@ export const PROJECTS = [
     tags: [{ name: "Python", color: "blue-text-gradient" }, { name: "Compiler Theory", color: "green-text-gradient" }, { name: "Tkinter IDE", color: "pink-text-gradient" }],
     image: urdupy,
     source_code_link: "https://github.com/SaraArif6198/urdupy-compiler",
-    live_site_link: "https://github.com/SaraArif6198/urdupy-compiler",
+    live_site_link: "https://drive.google.com/file/d/1vQ8hUT-hX8P0QMTIHfLlqgVeDbHWfqcc/view?usp=sharing",
     category: "Compiler Engineering"
   },
   {
