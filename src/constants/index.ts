@@ -280,7 +280,7 @@ export const PROJECTS = [
     tags: [{ name: "LangGraph", color: "blue-text-gradient" }, { name: "FastAPI", color: "green-text-gradient" }, { name: "Streamlit", color: "pink-text-gradient" }],
     image: vizbot_pasted,
     source_code_link: "https://github.com/SaraArif6198/VizBot",
-    live_site_link: "https://github.com/SaraArif6198/VizBot",
+    live_site_link: "https://drive.google.com/file/d/1m-7qVkIa6RP0YQM1nTmVDEVUaa3W21Al/view?usp=sharing",
     category: "Artificial Intelligence & ML"
   },
   {
