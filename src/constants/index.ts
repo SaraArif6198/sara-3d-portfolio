@@ -484,7 +484,7 @@ export const PROJECTS = [
     tags: [{ name: "C#", color: "blue-text-gradient" }, { name: ".NET", color: "green-text-gradient" }, { name: "SQL Server", color: "pink-text-gradient" }],
     image: csharp_desktop,
     source_code_link: "https://github.com/SaraArif6198/Inventory-Management-Sys",
-    live_site_link: "https://github.com/SaraArif6198/Inventory-Management-Sys",
+    live_site_link: "https://drive.google.com/file/d/1nurq3OmAD-lvH8qNaYrFm4SgqpHDdBHU/view?usp=sharing",
     category: "Software Architecture"
   },
   {
