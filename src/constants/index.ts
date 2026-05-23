@@ -466,7 +466,7 @@ export const PROJECTS = [
     tags: [{ name: "PHP/MySQL", color: "blue-text-gradient" }, { name: "PWA", color: "green-text-gradient" }, { name: "REST API", color: "pink-text-gradient" }],
     image: project5,
     source_code_link: "https://github.com/SaraArif6198/GSC-tracker",
-    live_site_link: "https://github.com/SaraArif6198/GSC-tracker",
+    live_site_link: "https://drive.google.com/file/d/1QRl1KugkKdM8WvxT1jkz-2Y2jC1Y-_PZ/view?usp=sharing",
     category: "Software Architecture"
   },
   {
