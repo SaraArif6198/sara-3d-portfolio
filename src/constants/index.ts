@@ -502,7 +502,7 @@ export const PROJECTS = [
     tags: [{ name: "React Native", color: "blue-text-gradient" }, { name: "TypeScript", color: "green-text-gradient" }, { name: "Mobile API", color: "pink-text-gradient" }],
     image: expense_tracker_pasted,
     source_code_link: "https://github.com/SaraArif6198/Mobile-Expense-Tracker",
-    live_site_link: "https://github.com/SaraArif6198/Mobile-Expense-Tracker",
+    live_site_link: "https://drive.google.com/file/d/1z-N8-Rnj6Q1C8jmHgkPexjbGMixKVSJ_/view?usp=sharing",
     category: "Software Architecture"
   }
 ] as const;
