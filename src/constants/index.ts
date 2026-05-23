@@ -289,7 +289,7 @@ export const PROJECTS = [
     tags: [{ name: "LangGraph", color: "blue-text-gradient" }, { name: "HuggingFace", color: "green-text-gradient" }, { name: "SQLite", color: "pink-text-gradient" }],
     image: aura_chat,
     source_code_link: "https://github.com/SaraArif6198/aura-ai-agent",
-    live_site_link: "https://github.com/SaraArif6198/aura-ai-agent",
+    live_site_link: "https://drive.google.com/file/d/19YMoUsUd0-3nV91V-MjmYpuzrmvAfAvi/view?usp=sharing",
     category: "Artificial Intelligence & ML"
   },
   {
