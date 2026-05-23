@@ -20,13 +20,22 @@ export const Hero = () => (
         </p>
         <div className="flex flex-wrap gap-4 mt-8 pointer-events-auto z-[100] relative">
           <button
-            onClick={() => window.open("/Sara_Arif_CV.pdf", "_blank")}
+            onClick={() => window.open("/Sara_Arif_Professional_CV.pdf", "_blank")}
             className="bg-[#915EFF] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary transition-all hover:bg-white hover:text-[#915EFF] active:scale-95 flex items-center gap-2 text-sm md:text-base cursor-pointer"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
             </svg>
             CV
+          </button>
+          <button
+            onClick={() => window.open("/Sara_Arif_ATS_Resume.pdf", "_blank")}
+            className="bg-[#915EFF] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary transition-all hover:bg-white hover:text-[#915EFF] active:scale-95 flex items-center gap-2 text-sm md:text-base cursor-pointer"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+            </svg>
+            Resume
           </button>
         </div>
       </div>
