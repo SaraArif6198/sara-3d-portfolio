@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#000000"/>
+  
+  <!-- Stylized Icon -->
+  <g fill="#FFFFFF">
+    <!-- Top-right to center-left, then center-right -->
+    <path d="M 230 110 L 320 200 L 260 260 L 170 170 Z" />
+    <path d="M 320 200 L 380 260 L 320 320 L 260 260 Z" />
+    
+    <!-- Bottom-left to center-right, then center-left -->
+    <path d="M 282 402 L 192 312 L 252 252 L 342 342 Z" />
+    <path d="M 192 312 L 132 252 L 192 192 L 252 252 Z" />
+  </g>
+
+  <!-- Text -->
+  <text x="256" y="445" font-family="'Inter', 'Arial', sans-serif" font-weight="900" font-size="34" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">DEVELOPERS.HUB</text>
+  <text x="256" y="475" font-family="'Inter', 'Arial', sans-serif" font-weight="700" font-size="20" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">CORPORATION</text>
+</svg>

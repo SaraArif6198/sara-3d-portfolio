@@ -82,7 +82,7 @@ export const EXPERIENCES = [
     title: "BS Computer Science",
     company_name: "University of Chakwal",
     icon: uet,
-    iconBg: "#383E56",
+    iconBg: "#FFFFFF",
     date: "Sep 2023 — Sep 2027",
     points: [
       "Specializing in compiler construction, machine learning, and systems programming.",
@@ -121,7 +121,7 @@ export const EXPERIENCES = [
     title: "Data Science Intern",
     company_name: "DevelopersHub Corporation",
     icon: intern,
-    iconBg: "#E6DEDD",
+    iconBg: "#000000",
     date: "Jun 2025 — Jul 2025",
     points: [
       "Built end-to-end ML pipelines: EDA → feature engineering → model training → deployment.",

@@ -39,9 +39,9 @@ import close from "./close.svg";
 import herobg from "./herobg.png";
 
 // Company logos (will be replaced visually with text)
-import uet from "./company/starbucks.png";   // UET placeholder
+import uet from "./company/uoc.png";   // UET placeholder
 import freelance from "./company/shopify.png"; // Freelance placeholder
-import intern from "./company/tesla.png";      // Internship placeholder
+import intern from "./company/developershub.svg"; // Internship placeholder
 import college from "./company/meta.png";      // College placeholder
 
 // Projects — Sara's real thumbnail images
