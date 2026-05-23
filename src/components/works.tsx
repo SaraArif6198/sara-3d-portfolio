@@ -27,15 +27,7 @@ const ProjectModal = ({ project, onClose }: { project: Project, onClose: () => v
           <button onClick={onClose} className="text-secondary hover:text-white text-2xl bg-black-200 w-10 h-10 rounded-full flex items-center justify-center transition-colors">&times;</button>
         </div>
 
-        <div className="w-full aspect-video bg-black rounded-xl mb-6 overflow-hidden relative group border border-white/10 cursor-pointer">
-          <img src={project.image} alt={project.name} className="w-full h-full object-cover opacity-50 group-hover:opacity-40 transition-opacity" />
-          <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <div className="w-16 h-16 rounded-full bg-[#915EFF]/90 flex items-center justify-center backdrop-blur-md group-hover:scale-110 transition-transform shadow-[0_0_20px_rgba(145,94,255,0.5)]">
-              <div className="w-0 h-0 border-t-[10px] border-t-transparent border-l-[16px] border-l-white border-b-[10px] border-b-transparent ml-1"></div>
-            </div>
-            <p className="text-white font-medium mt-4 tracking-wide shadow-black drop-shadow-md">Watch Demo Video</p>
-          </div>
-        </div>
+
 
         <div className="bg-black-100 rounded-xl p-5 mb-6 border border-white/5 relative overflow-hidden">
           <div className="absolute top-0 left-0 w-1 h-full bg-[#915EFF]"></div>
