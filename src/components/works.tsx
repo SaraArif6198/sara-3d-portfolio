@@ -56,7 +56,11 @@ const ProjectModal = ({ project, onClose }: { project: Project, onClose: () => v
   );
 };
 
-const ProjectCard = ({ index, project, onCodeClick }: { index: number, project: Project, onCodeClick: (p: Project) => void }) => (
+const ProjectCard = ({ index, project, onCodeClick }: { index: number, project: Project, onCodeClick: (p: Project) => void }) => {
+  const publicProjects = ["Enterprise Networking Simulation", "OS Memory Simulator"];
+  const isPublic = publicProjects.includes(project.name);
+
+  return (
   <motion.div 
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
@@ -70,13 +74,13 @@ const ProjectCard = ({ index, project, onCodeClick }: { index: number, project: 
         <div className="relative w-full h-[230px]">
           <img src={project.image} alt={project.name} className="w-full h-full object-cover rounded-2xl" />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-2">
-            <div onClick={() => project.name === "Enterprise Networking Simulation" ? window.open(project.source_code_link, "_blank") : onCodeClick(project)}
+            <div onClick={() => isPublic ? window.open(project.source_code_link, "_blank") : onCodeClick(project)}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-transform group relative"
             >
               <img src={github} alt="source code" className="w-1/2 h-1/2 object-contain" />
               {/* Tooltip for the github icon */}
               <div className="absolute -top-10 scale-0 group-hover:scale-100 transition-transform bg-black-200 text-white text-xs py-1 px-2 rounded-md whitespace-nowrap">
-                {project.name === "Enterprise Networking Simulation" ? "Source Code" : "Request Code"}
+                {isPublic ? "Source Code" : "Request Code"}
               </div>
             </div>
             {project.live_site_link !== project.source_code_link && (
@@ -103,7 +107,8 @@ const ProjectCard = ({ index, project, onCodeClick }: { index: number, project: 
       </div>
     </Tilt>
   </motion.div>
-);
+  );
+};
 
 const Works = () => {
   const [activeTab, setActiveTab] = useState("Artificial Intelligence & ML");
