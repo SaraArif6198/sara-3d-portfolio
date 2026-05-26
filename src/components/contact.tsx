@@ -27,7 +27,7 @@ const ContactContent = () => {
             from_name: form.name,
             to_name: "Sara",
             from_email: form.email,
-            to_email: "saraarif6198@gmail.com",
+            to_email: "saraariff2005@gmail.com",
             message: form.message,
           },
           "JpGw_0s9ylYt7ypuV" // EmailJS public key
