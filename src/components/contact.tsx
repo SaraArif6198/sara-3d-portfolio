@@ -77,7 +77,7 @@ const ContactContent = () => {
 
         <div className="mt-8 flex flex-col gap-2">
           <p className="text-secondary text-sm">Or reach me directly:</p>
-          <a href="mailto:saraarif6198@gmail.com" className="text-[#915EFF] hover:text-white transition-colors">saraarif6198@gmail.com</a>
+          <a href="mailto:saraariff2005@gmail.com" className="text-[#915EFF] hover:text-white transition-colors">saraariff2005@gmail.com</a>
           <a href="https://github.com/SaraArif6198" target="_blank" rel="noopener noreferrer" className="text-[#915EFF] hover:text-white transition-colors">github.com/SaraArif6198</a>
           <a href="https://linkedin.com/in/sara-arif-792p" target="_blank" rel="noopener noreferrer" className="text-[#915EFF] hover:text-white transition-colors">linkedin.com/in/sara-arif-792p</a>
         </div>
